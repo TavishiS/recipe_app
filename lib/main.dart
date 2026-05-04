@@ -190,7 +190,7 @@ class _RecipeHomePageState extends State<RecipeHomePage> {
               icon: const Icon(Icons.restaurant_menu),
               label: const Text('Generate 5 Recipes'),
               style: ElevatedButton.styleFrom(
-                minimumSize: const Size.infinity,
+                minimumSize: const Size(double.infinity, 50),
                 padding: const EdgeInsets.symmetric(vertical: 16),
               ),
             ),
